@@ -1,7 +1,7 @@
 {
     "name": "Nim",
     "package":"nim",
-    "index": "nim-lang.org/docs/manual.html",
+    "index": "overview.html",
     "selectors": {
         "h1.title": [{
            	"type":"Module",
@@ -21,7 +21,8 @@
         "div#18>dl.item>dt>pre>a>span.Identifier:nth-child(1)":"Template"
     },
     "ignore": [],
-    "icon32x32": "logo.jpg",
+    "icon16x16": "icon.png",
+    "icon32x32": "icon@2x.png",
     "allowJS": true,
     "ExternalURL": "https://nim-lang.org/"
 }
