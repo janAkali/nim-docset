@@ -1,2 +1,6 @@
 *.tgz
 *.zip
+nim.docset
+
+# Mac stuff...
+.DS_Store
