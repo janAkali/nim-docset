@@ -6,14 +6,15 @@ To install latest version into your docset reader, use [this](https://zealuserco
 
 ### Download and extract
 
-To installed a versioned release that allows multiple versions to coexist, download from the Github [releases](releases) page and extract to the docset directory configured in the reader.
+To install a versioned release that allows multiple versions to coexist, download from the Github [releases](releases) page and extract to the docset directory configured in the reader.
 
 ### Generating docs
 
 #### Prerequisites
 
-- Ensure a working GCC install and Nim install
-- Install Go lang and `go get -u github.com/technosophos/dashing`
+- Ensure a working GCC, Go and NodeJS installations
+- Compile and install Nim from source. (choosenim installs lack koch tool)
+- Install dashing package `go install github.com/technosophos/dashing`
 - Clone this repo
 
 #### Non-versioned docset
@@ -38,4 +39,4 @@ By default, docs will be generated for the Nim compiler that ran the script. If 
 
 ### Credits
 
-Thanks to the work from [niv](https://github.com/niv/nim-docset) and [wicast](https://github.com/wicast/nim-docset).
+Thanks to the work from [niv](https://github.com/niv/nim-docset), [wicast](https://github.com/wicast/nim-docset) and [genotrance](https://github.com/genotrance/nim-docset).
