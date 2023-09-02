@@ -12,8 +12,9 @@ To install a versioned release that allows multiple versions to coexist, downloa
 
 #### Prerequisites
 
-- Ensure a working GCC, Go and NodeJS installations
-- Compile and install Nim from source. (choosenim installs lack koch tool)
+- Ensure a working GCC, Nim, Go and NodeJS installations
+- make sure koch tool is in the nim directory and has the 'execute' permission
+  - (nim installed with choosenim might require `sudo chmod +x ~/.choosenim/toolchains/<nim-version>/koch`)
 - Install dashing package `go install github.com/technosophos/dashing`
 - Clone this repo
 
